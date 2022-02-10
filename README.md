@@ -2,6 +2,7 @@
 
 #2/10/22
     *** This project is for fun. Therefore, we shouldn't sacrifice our well-being and shouldn't be too woried about it *** 
+    
     1. Meeting. Discussed how to document code. Also, what are the main objectives of our project. 
     2. Since we're doing the project for our resumes we should do things that sound and look cool. 
     3. things we should do to sound cool: Pair programming, use git, do springs, scrum.
