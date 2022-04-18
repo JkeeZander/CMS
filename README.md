@@ -21,4 +21,8 @@
             2) template engine for the php: smarty- template engine that can be used in the project for the individual pages for each user. It takes parameters from php and insert them in the html document that can be used by the user.
                 website: https://www.smarty.net/docs/en/language.basic.syntax.tpl
             3) moving effect in the css(copy it from the following website) :http://www.csszengarden.com/219/
+    Week Two:
+        Altan: Added template functionality and sql information retrieving. Design decided is NYTIMES.
 
+    Week Three:
+        Altan: Proceeding with front end design.

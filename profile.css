@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 700px;
+}
+
+.left-navigation-bar-container {
+    position: absolute;
+    top: 25%;
+    left: 20px;
+}
+
+.left-navigation-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    list-style-type: none;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 80%;
+    background-image: url("info-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscriptions-container {
+    background-color: darkgrey;
+    position: absolute;
+    border-radius: 20px;
+    top: 25%;
+    height: 400px;
+    width: 140px;
+    right: 20px;
+}
+
+.subscriptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.subscription-element {
+    border-bottom: 2px solid black;
+}
+
+.avatar {
+    vertical-align: middle;
+    border-width: 3px;
+    border-style: solid;
+    border-color: burlywood;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
