@@ -18,6 +18,14 @@ li {
     background-repeat: no-repeat;
 }
 
+.home {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    padding: 10px;
+    border: 2px solid black;
+}
+
 .main {
     position: absolute;
     display: flex;

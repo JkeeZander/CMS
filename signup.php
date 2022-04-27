@@ -10,8 +10,12 @@ if($mysqli->connect_error){
 }
 try{
     if($_SERVER['REQUEST_METHOD'] == "POST"){
-        $query = "Insert into userLoginInfo VALUES('{$_POST['login']}','{$_POST['password']}')";
-        $result = $mysqli->query($query);
+        $query = "Insert into userLoginInfo VALUES('{$_POST['login']}','{$_POST['password']}');";
+        $query .= "Insert into userdata Values(null,'{$_POST['login']}','','')";
+        $result = $mysqli->multi_query($query);
+        do {
+   
+        } while ($mysqli->next_result());
         if($result ==TRUE){
             $_SESSION['user_name'] = $_POST['login'];
             header("Location: index.php");

@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <base href="//localhost/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="profile.css" />
+    
     <title>{$name}</title>
 </head>
 
 <body>
     <div class="main-container">
+    <div class="home"><a href = "index.php">Home</a></div>
         <div class="main">
+        
             <div class="info-container">
                 <nav class="left-navigation-bar-container">
                     <ul class="left-navigation-bar">

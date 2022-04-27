@@ -33,6 +33,8 @@ a:active {
 
 .login a {
     text-decoration: unset;
+    padding: 10px;
+    border: 2px solid black;
 }
 
 .header {
@@ -74,7 +76,6 @@ a:active {
 .login {
     align-self: flex-start;
     padding: 10px;
-    border: 2px solid black;
 }
 
 .navigation {
@@ -168,8 +169,8 @@ a:active {
 
 .subscriptions {
     display: grid;
-    grid-template-columns: minmax(0, 2r) minmax(0, 1.5fr);
-    grid-template-rows: 20px 1fr 1fr;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1.5fr);
+    grid-template-rows: 20px minmax(0, 1fr) minmax(0, 1fr);
     gap: 10px;
     grid-template-areas: "header ." "subscription1 subscription3" "subscription2 subscription3";
     min-height: 250px;
@@ -182,6 +183,7 @@ a:active {
     border-bottom: 1px solid darkgrey;
     border-top: 1px solid darkgrey;
     font-family: 'Josefin Slab', serif;
+    font-size: large;
     word-wrap: break-word;
 }
 
@@ -189,6 +191,7 @@ a:active {
     border-bottom: 1px solid darkgrey;
     border-top: 1px solid darkgrey;
     font-family: 'Josefin Slab', serif;
+    font-size: large;
     word-wrap: break-word;
 }
 

@@ -10,10 +10,10 @@ if($mysqli->connect_error){
 }
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     $query = "Insert into news values (null,'{$_POST['header']}','{$_POST['short-info']}','{$_POST['main-info']}','{$_SESSION['user_name']}')";
-    echo $query;
-    $mysqli->query($query);
     if($mysqli->query($query) == TRUE){
-        
+        $result = "Successfully added content";
+    }else{
+        $result = "There were some errors - Content did not publish):";
     }
 }
 ?>
@@ -32,6 +32,11 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
         Short-info: <input type="text" name="short-info"><br>
         Main-info: <input type="text" name="main-info"><br>
         <input type="submit">
+        <?php
+        if(isset($result)){
+            echo $result;
+        }
+        ?>
     </form>
 </body>
 

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.0, created on 2022-04-18 20:35:32
+/* Smarty version 4.1.0, created on 2022-04-27 20:13:32
   from 'C:\Users\User\Desktop\ContentManagementSystem\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_625daf74f34107_17429526',
+  'unifunc' => 'content_626987cc3abf60_10297957',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '10559d36998b13a968fb149348c356a9401f23d4' => 
     array (
       0 => 'C:\\Users\\User\\Desktop\\ContentManagementSystem\\index.tpl',
-      1 => 1650306927,
+      1 => 1650437029,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_625daf74f34107_17429526 (Smarty_Internal_Template $_smarty_tpl) {
+function content_626987cc3abf60_10297957 (Smarty_Internal_Template $_smarty_tpl) {
 ?><html lang="en">
 
 <head>
@@ -28,6 +28,7 @@ function content_625daf74f34107_17429526 (Smarty_Internal_Template $_smarty_tpl)
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home page</title>
+     <base href="//localhost/">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@500&display=swap" rel="stylesheet" />

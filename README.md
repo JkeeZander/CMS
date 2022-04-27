@@ -26,3 +26,7 @@
 
     Week Three:
         Altan: Proceeding with front end design.
+    Week Four:
+        Altan: Added design for the main pages and basic functionality. THe website can now add new posts and if manually added, see subscription info. News are also updated to everyone.
+                NEW To do list: add subscribe button when the user is log on. Once on someones page using link like www.website.com/personalPage/?user_name=username, the user can subcsribe to other person. ALso add the button on the personal page so that the user can upload his avatar to the system.
+                Fun place: Image processing tools like bluring / black white translate and others. If on someone's page, need to change the code so that every info is for the other user and not the person who is seeing someone's profile. Add additional button of search so that someone can search for the other user or blog post.
